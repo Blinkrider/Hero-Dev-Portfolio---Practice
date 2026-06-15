@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+header {
+    background: url('./assets/Hero-bg.png');
+    padding: 20px 0 0 30px;
+}
+
+/* Hero Section */
+#hero-section {
+    width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-dev h1 {
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+.hero-dev span {
+    color: rgba(135, 43, 255, 1);
+}
+
+.hero-dev p {
+    color: rgba(138, 138, 138, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* btn shared */
+.btn-shared {
+    border-radius: 30px;
+    border: none;
+    padding: 16px 32px;
+    background: rgba(135, 43, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-cv {
+    border-radius: 30px;
+    border: solid 1px rgba(135, 43, 255, 1);
+    padding: 16px 32px;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#btn {
+    margin-top: 30px;
+}
+
+/* main section */
+main {
+    width: 1260px;
+    margin: 0 auto;
+    margin-top: 156px;
+}
+
+main>section {
+    margin-bottom: 156px;
+}
+
+/* Skill */
+.skill {
+    text-align: center;
+}
+
+.skill h4 {
+    color: rgba(106, 20, 218, 1);
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 30%;
+    margin-bottom: 10px;
+}
+
+.skill h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+#skill-box {
+    margin-top: 60px;
+    display: flex;
+    gap: 75px;
+    flex-wrap: wrap;
+}
+
+.img-box {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 40px;
+    width: 364px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.img-box h1 {
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 2.6;
+}
+
+.img-box p {
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+
+/* PROJECTS */
+.PROJECTS h5 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 30%;
+    color: rgba(135, 43, 255, 1);
+    text-align: center;
+}
+
+.PROJECTS>h1 {
+    font-weight: bold;
+    font-size: 44px;
+    color: #0D1321;
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#doc {
+    border: 1px solid #872BFF;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+
+}
+
+.img-d img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.doc-info h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(14, 14, 14, 0.8);
+    padding-top: 25px;
+}
+
+.doc-info p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0;
+}
+
+.doc-info button {
+    margin-top: 30px;
+}
+
+#doc-two {
+    border: 1px solid #872BFF;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+#doc-three {
+    border: 1px solid #872BFF;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+/* EXPERIENCE Section */
+.EXPERIENCE h4 {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 30%;
+    color: #872BFF;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.EXPERIENCE h1 {
+    font-weight: bold;
+    font-size: 44px;
+    color: black;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.EXPERIENCE-box {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.ex-box {
+    width: 240px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.ex-box:nth-child(1) img {
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.ex-box img {
+    object-fit: contain;
+    width: 170px;
+    height: 70px;
+}
+
+.skill-btn {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+/* Footer */
+footer img {
+    margin-right: 25px;
+
+}
+
+footer p {
+    font-size: 16px;
+    color: rgba(91, 87, 87, 1);
+}
+
+.fot-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 100px;
+    align-items: center;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #872BFF;
+    opacity: 0.3;
+}
